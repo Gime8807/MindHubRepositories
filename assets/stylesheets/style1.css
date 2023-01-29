@@ -13,14 +13,12 @@
     }
 
 
-/*ESTILOS DE HOME*/
+/*ESTILOS DE HEADER*/
 
 h1{
     height: 500px;
     padding: 10px;
     font-size:60px;
-    
-
 }
 
 header {
@@ -31,6 +29,7 @@ header {
     background-repeat: no-repeat;
     position: relative;
 }
+
  #Logo {
     height: 100px;
     display: block;
@@ -38,7 +37,6 @@ header {
     position: absolute;
     top: 175px;
     right: 80px;
-
  }
 
  nav{
@@ -46,14 +44,14 @@ header {
     top:240px;
     margin:30px;
     padding:10px;
-
  }
+
  nav a {
     display:block;
     padding: 10px;
     margin: 30px;
-    color: blue; 
-
+    color: blue;
+    cursor: pointer; 
  }
 
  nav a:hover{
@@ -89,4 +87,23 @@ li{
 
 .text{
     margin-left: 20px;
+}
+
+/*ESTILOS DE ABOUT*/
+
+.article {
+    width: 50rem;
+    display: block;
+    position:relative;
+    left: 200px;
+    top: 50px;
+    text-indent:15px;
+}
+
+/*ESTILOS DE CONTACT*/
+.contact {
+position: relative;
+left: 210px;
+top: 70px;
+padding: 10px;
 }
