@@ -91,8 +91,8 @@ li{
 
 
 .title-date{
-    font-size: 25px;
-    
+    font-size: 30px;
+    font-weight: 300px;    
 }
 
 .text{
@@ -102,13 +102,18 @@ li{
 /*ESTILOS DE ABOUT*/
 
 .article {
-    width: 50rem;
+    width: 75rem;
     display: block;
     position:relative;
     left: 200px;
     top: 50px;
     text-indent:15px;
 }
+
+h3{
+    font-size: xx-large;    
+}
+
 
 /*ESTILOS DE CONTACT*/
 .contact {

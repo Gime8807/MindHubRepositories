@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*ESTILOS GENERALES*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+.image {
+    transform: translate(60px,75px);
+    height: 300px;
+    border-radius: 50px;
+    border-style: dashed;
+    border-width: 5px;
+    
+    }
+
+
+/*ESTILOS DE HEADER*/
+
+h1{
+    display:block;
+    font-size:60px;
+    text-align: center;
+    background: linear-gradient(to top, #ffff00 34%, #000000 99%);
+}
+
+
+header {
+
+    background:url('../img/design1_image2.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height: 300px;   
+}
+
+ #Logo {
+    height: 139px;
+    display: block;
+    border-radius: 92px;
+    border: 6px solid yellow;
+    background-color: black;
+    position: absolute;
+    top: 270px;
+    right:65px;
+ }
+
+ nav{
+    position:absolute;
+    top: 275px;
+    left: 17px;
+   
+ }
+
+ nav a {
+    display:inline-block;
+    padding: 5px 10px;
+    margin: 7px;
+    background-color: #FFFF00;
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
+    border:2px solid black; 
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px #606060;
+ }
+
+ nav a:hover{
+   background-color: #FF0000;
+    
+    
+ }
+
+h2{
+    display: block;
+    background-color:white;
+    color: black;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    
+}
+
+
+ul {
+    position: relative;
+    left: 666px;
+    bottom:205px;
+    list-style-type: none;
+}
+
+li{
+    padding: 10px;
+}
+
+
+.title-date{
+    font-size: 25px;
+    
+}
+
+.text{
+    margin-left: 20px;
+}
+
+/*ESTILOS DE ABOUT*/
+
+.article {
+    width: 50rem;
+    display: block;
+    position:relative;
+    left: 515px;
+    bottom: 196px;
+    text-indent:15px;
+}
+
+/*ESTILOS DE CONTACT*/
+.contact {
+position: relative;
+left: 584px;
+bottom: 180px;
+padding: 10px;
+}
