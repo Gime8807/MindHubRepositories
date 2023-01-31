@@ -44,7 +44,9 @@ header {
     padding:10px;
  }
 
- nav a {
+ .nav1,
+ .nav2,
+ .nav3 {
     display:block;
     padding: 10px;
     margin: 30px;
@@ -52,9 +54,15 @@ header {
     cursor: pointer; 
  }
 
- nav a:hover{
+ .nav1:hover,
+ .nav2:hover,
+ .nav3:hover{
     color: black;
     text-decoration: none;    
+ }
+
+ .active{
+    color: black;
  }
 
 h2{
