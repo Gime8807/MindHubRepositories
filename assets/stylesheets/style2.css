@@ -10,7 +10,7 @@
 
 .image {
     display: none;
-    }
+}
 
 
 /*ESTILOS DE HEADER*/
@@ -23,14 +23,11 @@ h1{
 
 
 header {
-
     background:url('../img/design1_image2.jpg');
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-    height: 300px;
-
-   
+    height: 300px;   
 }
 
  #Logo {
@@ -45,8 +42,7 @@ header {
  nav{
     position:absolute;
     top: 38px;
-    right: 2px;
-   
+    right: 2px;  
  }
 
  nav a {
@@ -62,9 +58,7 @@ header {
  }
 
  nav a:hover{
-   background-color: #51C759;
-    
-    
+   background-color: #51C759;   
  }
 
 h2{
@@ -74,8 +68,7 @@ h2{
     text-align: center;
     height: 50px;
     padding: 10px;
-    border: 2px solid black;
-    
+    border: 2px solid black;   
 }
 
 ul {

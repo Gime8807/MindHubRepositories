@@ -54,8 +54,7 @@ header {
 
  nav a:hover{
     color: black;
-    text-decoration: none;
-    
+    text-decoration: none;    
  }
 
 h2{
@@ -80,8 +79,7 @@ li{
 
 
 .title-date{
-    font-size: 25px;
-    
+    font-size: 25px;    
 }
 
 .text{
