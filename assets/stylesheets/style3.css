@@ -164,7 +164,6 @@ ol{
 .sub-list{
     list-style:lower-latin;
     list-style-position: inside;
-    line-break: anywhere;
 }
 
 .list2{
