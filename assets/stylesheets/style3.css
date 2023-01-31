@@ -55,7 +55,9 @@ header {
 
  .nav1,
  .nav2,
- .nav3  {
+ .nav3,
+ .nav4,
+ .nav5  {
     display:inline-block;
     padding: 5px 10px;
     margin: 7px;
@@ -70,12 +72,13 @@ header {
 
  .nav1:hover, 
  .nav2:hover,
- .nav3:hover {
+ .nav3:hover,
+ .nav4:hover,
+ .nav5:hover {
     background-color: #FF0000;    
  }
 .active{
     background-color: #FF0000;    
-
 }
 
 h2{
