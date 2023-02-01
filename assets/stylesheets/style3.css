@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Comic+Neue:ital,wght@1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap');
 
 /*ESTILOS GENERALES*/
 *{
@@ -6,6 +8,8 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Comic Neue', cursive;
+    
+     
 }
 
 .image {
@@ -21,11 +25,11 @@
 
 h1{
     display:block;
-    font-size:60px;
+    font-size:75px ;
+    font-weight: bold;
     text-align: center;
-    background: linear-gradient(to top, #ffff00 34%, #000000 99%);
+    background:linear-gradient(to top, #ffff00 34%, #000000 99%);
 }
-
 
 header {
 
@@ -75,7 +79,8 @@ header {
  .nav3:hover,
  .nav4:hover,
  .nav5:hover {
-    background-color: #FF0000;    
+    background-color: #FF0000;
+    transform: scale3d(1.2,1.2,1.2);    
  }
 .active{
     background-color: #FF0000;    
@@ -83,9 +88,11 @@ header {
 
 h2{
     display: block;
-    background-color:white;
+    background-color:#5FA199;
     color: black;
     text-align: center;
+    font-weight:bolder;
+    font-size: 30px;
     height: 50px;
     padding: 10px;
     border: 2px solid black;   
@@ -114,6 +121,11 @@ li{
 
 /*ESTILOS DE ABOUT*/
 
+h3{
+    font-weight:900;
+    font-size: 25px;
+}
+
 .article {
     width: 50rem;
     display: block;
@@ -121,16 +133,37 @@ li{
     left: 515px;
     bottom: 196px;
     text-indent:15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.article:hover{
+   
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    cursor: default;
+    transform: scale3d(1.1,1.1,1.1);
+
 }
 
 /*ESTILOS DE CONTACT*/
-.contact {
-position: relative;
-left: 584px;
-bottom: 180px;
-padding: 10px;
+.card{
+    display: inline-block;
+    background-color: yellow;
+    border: 2px black; 
+    border-radius: 10px;
+    border-style: dotted;
+    position: relative;
+    left: 269px;
+    bottom: 112px;
+    padding: 25px;  
 }
 
+.card:hover{
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transform: translateY(-7%);
+}
 /*ESTILOS GAME INFO*/
 
 table {
@@ -146,8 +179,23 @@ th, td {
 }
 
 /*ESTILOS DE GAME INFO*/
+b{
+    font-weight: 900;
+    font-size: x-large;
+}
 
 /*ESTILOS DE RULES*/
+
+.container{
+    width: 800px;
+    background-color: #FFFF00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 100px;
+    border-radius: 15px;
+
+}
 section{
     padding: 20px;
     margin: 25px;
