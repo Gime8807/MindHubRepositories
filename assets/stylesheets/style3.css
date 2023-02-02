@@ -1,6 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Comic+Neue:ital,wght@1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 /*ESTILOS GENERALES*/
 *{
@@ -25,8 +24,9 @@
 
 h1{
     display:block;
-    font-size:75px ;
-    font-weight: bold;
+    font-size:75px;
+    font-style: italic;
+    font-weight:bold;
     text-align: center;
     background:linear-gradient(to top, #ffff00 34%, #000000 99%);
 }
@@ -47,7 +47,7 @@ header {
     border: 6px solid yellow;
     background-color: black;
     position: absolute;
-    top: 270px;
+    top: 256px;
     right:65px;
  }
 
@@ -68,6 +68,7 @@ header {
     background-color: #FFFF00;
     color:black;
     cursor: pointer;
+    font-weight: 700;
     text-decoration: none;
     border:2px solid black; 
     border-radius: 20px;
@@ -87,11 +88,11 @@ header {
 }
 
 h2{
-    display: block;
+    display:block;
     background-color:#5FA199;
     color: black;
+    align-items: center;
     text-align: center;
-    font-weight:bolder;
     font-size: 30px;
     height: 50px;
     padding: 10px;
@@ -112,11 +113,13 @@ li{
 
 
 .title-date{
-    font-size: 25px;   
+    font-size: 25px;
+    font-weight:bold;   
 }
 
 .text{
     margin-left: 20px;
+    font-weight: 400;
 }
 
 /*ESTILOS DE ABOUT*/
@@ -138,12 +141,10 @@ h3{
 }
 
 .article:hover{
-   
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     border-radius: 15px;
     cursor: default;
     transform: scale3d(1.1,1.1,1.1);
-
 }
 
 /*ESTILOS DE CONTACT*/
@@ -162,8 +163,9 @@ h3{
 .card:hover{
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
-    transform: translateY(-7%);
+    transform: translateY(-10%);
 }
+
 /*ESTILOS GAME INFO*/
 
 table {
@@ -179,30 +181,79 @@ th, td {
 }
 
 /*ESTILOS DE GAME INFO*/
+
+.title-game-info{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.text-rules{
+    text-decoration: underline;
+}
 b{
     font-weight: 900;
-    font-size: x-large;
+}
+
+table{
+    background-color: rgba(255,255,255,0.3);
+    table-layout: auto;
+    width: 50%;
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.information{
+    align-items: flex-start;
+    margin-left: 80px;
+    text-indent: 10px;
 }
 
 /*ESTILOS DE RULES*/
 
-.container{
+.title-rules{
+    display: flex;
+    flex-direction:column;
+}
+.main-rules{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+.conteiner1{
+    padding: 10px;
+    margin: 20px;
+    border: 2px red;
+}    
+
+.container2 {
+    flex-direction: column;
+    align-items: center;
     width: 800px;
     background-color: #FFFF00;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 50px 100px;
+    margin-bottom: 25px;
     border-radius: 15px;
-
+    padding: 15px;
 }
-section{
-    padding: 20px;
-    margin: 25px;
+.container2:hover{
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    cursor: default;
+    margin: 30px 50px;
+    transform: scale3d(1.1,1.1,1.1);
 }
 
 ol{
     text-indent: 10px;
+    line-height: normal;
 }
 .list{
     list-style: decimal;
