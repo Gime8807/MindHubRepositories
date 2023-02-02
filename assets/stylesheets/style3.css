@@ -6,9 +6,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Comic Neue', cursive;
-    
-     
+    font-family: 'Comic Neue', cursive;     
 }
 
 .image {
@@ -17,7 +15,7 @@
     border-radius: 50px;
     border-style: dashed;
     border-width: 5px;   
-    }
+}
 
 
 /*ESTILOS DE HEADER*/
@@ -83,6 +81,7 @@ header {
     background-color: #FF0000;
     transform: scale3d(1.2,1.2,1.2);    
  }
+
 .active{
     background-color: #FF0000;    
 }
@@ -98,7 +97,6 @@ h2{
     padding: 10px;
     border: 2px solid black;   
 }
-
 
 ul {
     position: relative;
@@ -180,8 +178,6 @@ th, td {
         padding: 5px;
 }
 
-/*ESTILOS DE GAME INFO*/
-
 .title-game-info{
     display: flex;
     flex-direction: column;
@@ -221,12 +217,12 @@ table{
     display: flex;
     flex-direction:column;
 }
+
 .main-rules{
     display: flex;
     flex-direction:column;
     align-items: center;
 }
-
 
 .conteiner1{
     padding: 10px;
@@ -241,7 +237,6 @@ table{
 }
 
 .container2 {
-    text-transform: ;
     flex-direction: column;
     align-items: center;
     width: 800px;
@@ -277,7 +272,6 @@ ol{
     list-style: circle;
     list-style-position: inside;
     margin-left: 10px;
-    
 }
 
 .img-buttom{
