@@ -234,17 +234,25 @@ table{
     border: 2px red;
 }    
 
+#title-container1{
+    font-size: xx-large;
+    font-style: oblique;
+    text-shadow: 1px 1px 3px gray;
+}
+
 .container2 {
+    text-transform: ;
     flex-direction: column;
     align-items: center;
     width: 800px;
     background-color: #FFFF00;
-    margin-bottom: 25px;
+    margin: 20px;
     border-radius: 15px;
-    padding: 15px;
+    padding: 10px;
 }
 .container2:hover{
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    background-color: antiquewhite;
     border-radius: 15px;
     cursor: default;
     margin: 30px 50px;
@@ -270,4 +278,16 @@ ol{
     list-style-position: inside;
     margin-left: 10px;
     
+}
+
+.img-buttom{
+    width: 80px;
+    height: 80px;
+    background-color: #5FA199;
+    border: 5px black; 
+    border-radius: 50px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+    transform: rotate(271deg);
 }
