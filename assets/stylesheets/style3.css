@@ -190,6 +190,11 @@ section{
     padding: 10px;
 }
 
+.container-game{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .text-rules{
     text-decoration: underline;
 }
@@ -224,7 +229,7 @@ table{
     align-items: center;
 }
 
-.conteiner1{
+.container1{
     padding: 10px;
     margin: 20px;
     border: 2px red;
@@ -284,5 +289,4 @@ ol{
     flex-direction: column;
     align-items: flex-end;
     transform: rotate(271deg);
-    box-shadow: 5px black;
 }
