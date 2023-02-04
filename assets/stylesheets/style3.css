@@ -59,7 +59,8 @@ header {
  .nav2,
  .nav3,
  .nav4,
- .nav5  {
+ .nav5,
+ .nav6  {
     display:inline-block;
     padding: 5px 10px;
     margin: 7px;
@@ -77,11 +78,16 @@ header {
  .nav2:hover,
  .nav3:hover,
  .nav4:hover,
- .nav5:hover {
+ .nav5:hover,
+ .nav6:hover {
     background-color: #FF0000;
     transform: scale3d(1.2,1.2,1.2);    
  }
 
+ #nav6{
+    position: relative;
+    margin-left: 624px;
+ }
 .active{
     background-color: #FF0000;    
 }
@@ -192,7 +198,20 @@ section{
 
 .container-game{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.maps{
+padding: 15px;
+
+}
+
+iframe{
+   width: 370px;
+   height: 280px;
+   padding: auto;
 }
 
 .text-rules{
