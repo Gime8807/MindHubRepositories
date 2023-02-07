@@ -211,7 +211,7 @@ padding: 15px;
 iframe{
    width: 370px;
    height: 280px;
-   padding: auto;
+   padding:5px;
 }
 
 .text-rules{
