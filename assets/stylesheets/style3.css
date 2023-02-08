@@ -21,7 +21,7 @@
 /*ESTILOS DE HEADER*/
 
 h1{
-    display:block;
+    display:flex;
     font-size:75px;
     font-style: italic;
     font-weight:bold;
@@ -50,9 +50,9 @@ header {
  }
 
  nav{
-    position:absolute;
-    top: 275px;
-    left: 17px;  
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 190px;
  }
 
  .nav1,
@@ -61,7 +61,6 @@ header {
  .nav4,
  .nav5,
  .nav6  {
-    display:inline-block;
     padding: 5px 10px;
     margin: 7px;
     background-color: #FFFF00;
@@ -85,29 +84,41 @@ header {
  }
 
  #nav6{
-    position: relative;
+    align-content: flex-end;
     margin-left: 624px;
  }
 .active{
     background-color: #FF0000;    
 }
 
-h2{
-    display:block;
+.title-h2{
+    display: flex;
+    flex-direction: column;
     background-color:#5FA199;
-    color: black;
     align-items: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     height: 50px;
     padding: 10px;
     border: 2px solid black;   
 }
+main{
+    display: flex;
+}
 
-ul {
-    position: relative;
-    left: 666px;
-    bottom:205px;
+/*ESTILOS HOME*/
+
+.main-home{
+height: 100vh;
+flex-direction: row;
+justify-content: space-evenly;
+margin-bottom: 50px;
+}
+
+.index-ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
     list-style-type: none;
 }
 
@@ -128,15 +139,25 @@ li{
 
 /*ESTILOS DE ABOUT*/
 
+.main-about{
+    height: 100vh;
+    flex-direction: row;
+}
+
 h3{
     font-weight:900;
     font-size: 25px;
 }
-
+#img-about{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.div-about{
+    margin-left: 200px;
+    margin-top: 100px;
+}
 .article {
     width: 50rem;
-    display: block;
-    position:relative;
     left: 515px;
     bottom: 196px;
     text-indent:15px;
@@ -152,6 +173,7 @@ h3{
 }
 
 /*ESTILOS DE CONTACT*/
+
 .card{
     display: inline-block;
     background-color: yellow;
@@ -184,10 +206,7 @@ th, td {
         padding: 5px;
 }
 
-.title-game-info{
-    display: flex;
-    flex-direction: column;
-}
+
 
 section{
     display: flex;
@@ -237,10 +256,6 @@ table{
 
 /*ESTILOS DE RULES*/
 
-.title-rules{
-    display: flex;
-    flex-direction:column;
-}
 
 .main-rules{
     display: flex;
@@ -308,4 +323,51 @@ ol{
     flex-direction: column;
     align-items: flex-end;
     transform: rotate(271deg);
+}
+
+/*ESTILOS DE REGISTRATION*/
+
+.main-registration {
+flex-direction: column;
+align-items: center;
+margin: 20px;
+}
+
+form{
+    width: 50rem;
+    padding: 25px;
+    margin-top: 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-image: url(../img/background_registration.jpg);
+    background-size: 210vh;
+    
+}
+
+fieldset{
+    width: 100%;
+    padding: 10px;
+}
+
+.registration-ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.text-permission{
+    margin: 10px;
+}
+
+.registration-li{
+    margin-left: 220px;
+}
+.input-small{
+    width: 100px;
+    background-color: #FFFF00;
+    border-radius: 10px;
+    height: 25px;
+    margin-left: 10px;
 }

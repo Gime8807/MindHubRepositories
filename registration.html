@@ -24,17 +24,158 @@
         </nav>
             
     </header>
-    <div class="title-registration">
+    <div class="title-h2">
         <h2>Registration Form</h2>  
     </div>
-    <main>
+    <main class="main-registration">
         <form action="./show_data.html" method="get">
+        
             <fieldset>
-              <label for="Name">Player´s First Name</label>
-                <input type="text" name="first-name" id="name" >
-            <label for="name">Last Name</label>
-            <input type="text" name="last-name" id="" >
+                <legend>Registration Dates</legend>
+                <ul class="registration-ul">
+                    <li>
+                        <label for="Name">Players First Name</label>
+                        <input type="text" name="first-name" id="name" > 
+                    </li>
+                    <li>
+                        <label for="name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </li>
+                    <li >
+                        <label for="">Street Adress</label>
+                        <input type="text" name="adress">
+                    </li>
+                    <li >
+                        <label for="">City</label>
+                         <input type="text" name="city">
+                    </li>
+                    <li>
+                        <label for="">Zip Code</label>
+                        <input type="text" name="code">
+                    </li>
+                    <li>
+                        <label for="">Bird Date</label>
+                        <input type="date" name="date">
+                    </li>
+                    <li>
+                        <label for="female">Gender: Female</label>
+                        <input type="radio" name="gender" id="fem">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male">
+                    </li>
+                    <li>
+                        <label for="Grade">Grade: Pre-School</label>
+                            <input type="radio" name="grade" id="pre-school">
+                        <label for="Grade">1st</label>
+                            <input type="radio" name="grade" id="1st">
+                        <label for="Grade">2nd</label>
+                            <input type="radio" name="grade" id="2nd">
+                        <label for="Grade">3rd</label>
+                            <input type="radio" name="grade" id="3rd">
+                        <label for="Grade">4th</label>
+                            <input type="radio" name="grade" id="4th">
+                        <label for="Grade">5th</label>
+                            <input type="radio" name="grade" id="5th">
+                    </li> 
+                </ul>        
+            </fieldset>         
+            <fieldset>
+                <legend>Which elementary school do you live near?</legend>
+                <label>Closest School:</label>
+                <select name="school">
+                    <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                    <option value="Greenbay">Greenbay</option>
+                    <option value=" Howard A Yeguer"> Howard A Yeguer</option>
+                    <option value="Marjorie P Hart">Marjorie P Hart</option>
+                    <option value=" North Elementary"> North Elementary</option>
+                    <option value="South Elementary">South Elementary</option>
+                </select>
             </fieldset>
+            <fieldset>
+                <legend>What position(s) do you normally play? (check all that apply</legend>
+                <ul class="registration-ul">
+                    <li>
+                        <label for="Forward">Forward</label>
+                            <input type="checkbox" name="position" id="Forward" value="Forward">
+                    </li>
+                    <li>
+                        <label for="Defense">Defense</label>
+                            <input type="checkbox" name="position" id="Defense" value="Defense">
+                    </li>
+                    <li>
+                        <label for="Mindfield">Mindfield</label>
+                            <input type="checkbox" name="position" id="Mindfield" value="Mindfield">
+                    </li>
+                    <li>
+                        <label for="Goalkeeper">Goalkeeper</label>
+                            <input type="checkbox" name="position" id="Goalkeeper" value="Goalkeeper">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Uniform Size</legend>
+                <ul class="registration-ul">
+                    <li>
+                        <label for="uniform-size">Youth Small</label>
+                        <input type="radio" name="uniform-size" id="youth small" value="Youth Small">                       
+                    </li>
+                    <li>
+                        <label for="uniform-size">Youth Medium</label>
+                        <input type="radio" name="uniform-size" id="youth medium" value="Youth Medium">
+                    </li>
+                    <li>
+                        <label for="uniform-size">Youth Large</label>
+                        <input type="radio" name="uniform-size" id="youth large" value="Youth large">
+                    </li>
+                    <li>
+                        <label for="uniform-size">Small</label>
+                        <input type="radio" name="uniform-size" id="small" value="Small">
+                    </li>
+                    <li>
+                        <label for="uniform-size">Medium</label>
+                        <input type="radio" name="uniform-size" id="medium" value="Medium">
+                    </li>
+                    <li> 
+                        <label for="uniform-size">Large</label>
+                        <input type="radio" name="uniform-size" id="large" value="Large">
+                       
+                    </li>
+                    <li>
+                        <label for="uniform-size">Extra-Large</label>
+                        <input type="radio" name="uniform-size" id="extra-large" value="Extra-Large">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Permission to Play</legend>
+                <p class="text-permission">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by
+                    all the rules of Mighty Ducks Hockey League (MDHL). In recognizing the posibility of physical
+                    injury associated with hockey and in consideration for the "League" accepting the registrant for
+                    its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify
+                    MDHL, their employees and associated personnel and volunteers, including the facilities used for
+                    practices and games, againts any claim by or on behalf of the registrant as a result of the
+                    registrant´s participation in the programand/orbeing transported to or from MDHL sponsored
+                    activities, which transportation.</p>
+                <p class="text-permission" >By entering your name below, I hereby agree and authorize rhe above. In addition, by entering
+                    your name below,I also acknowledge that I have read the cancellation policy and agree to its
+                    terms.</p>
+                <ul class="registration-ul">
+                    <li>
+                        <label for="Parent-name">Parent/Guardian Name</label>
+                        <input type="text" name="Parent-name">
+                        <label for="Date">Date</label>
+                        <input type="date" name="date">
+                    </li>
+                </ul>
+                
+            </fieldset>
+            <ul class="registration-ul">
+                <li class="registration-li" >
+                    <input class="input-small" type="submit" value="Enviar">
+                    <input class="input-small" type="reset" value="Reset">
+                </li>
+            </ul>
+            
 
         </form>
     </main>
