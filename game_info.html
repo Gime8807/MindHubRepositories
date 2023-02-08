@@ -8,14 +8,16 @@
     <!--<link rel="stylesheet" href="./assets/stylesheets/style1.css">
      <link rel="stylesheet" href="./assets/stylesheets/style2.css">-->
     <link rel="stylesheet" href="./assets/stylesheets/style3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <title>Mighty Ducks Hockey League</title>
 </head>
+
 <body>
     <header>
         <h1 id="title-header">Mighty Ducks Hockey League</h1>  
         <img id="Logo" src="./assets/img/LogoMightyducks-01.png" alt="LogoMDHL">
         <nav>
-            <a class="nav1" href="#">Home</a> 
+            <a class="nav1" href="./index.html">Home</a> 
             <a class="nav2" href="./about.html">AboutMDHL</a>
             <a class="nav3" href="./contact.html">Contact</a>
             <a class="nav4 active" href="#">Game Info</a>
@@ -26,7 +28,7 @@
     <div class="title-h2">
         <h2>Game Info</h2>
     </div>
-    <main>
+    <main class="main-game">
         <section>
             <h3>Fall Schedule</h3>
             <h3 class="text-rules">*All games take place on Saturday</h3>
@@ -45,61 +47,118 @@
                     <tr>
                         <td rowspan="2">9/01</td>
                         <td>U1andU4</td>
-                        <td>AJ katzenmaier</td> 
+                        <td class="location">
+                            <div class="visual-maps">
+                                <article id="map1" class="material-symbols-outlined container-maps">location_on
+                                    <h5 class=" title-section">AJ katzenmaier</h5>
+                                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.7505179692707!2d-87.86481089469335!3d42.32651967753195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1675477728095!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </article>        
+                            </div>
+                        </td>                        
                         <td>9:30a.m.</td>
                     </tr>
                     <tr>
                         <td>U3andU2</td>
-                        <td>Greenbay</td>
+                        <td class="location">
+                            <div class="visual-maps">
+                                <article id="map2" class="material-symbols-outlined container-maps">location_on
+                                    <h5 class=" title-section">Greenbay</h5>
+                                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.7505179692707!2d-87.86481089469335!3d42.32651967753195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1675477728095!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </article>        
+                            </div>
+                        </td>
                         <td>1:00p.m.</td>
                     </tr>
                     <tr>
                         <td rowspan="2">9/08</td>
                         <td>U5andU6</td>
-                        <td>Howard A Yeager</td> 
+                        <td class="location">
+                            <div class="visual-maps">
+                                <article id="map3" class="material-symbols-outlined container-maps">location_on
+                                    <h5 class=" title-section">Howard A Yeaguer</h5>
+                                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.7505179692707!2d-87.86481089469335!3d42.32651967753195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1675477728095!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </article>        
+                            </div>
+                        </td> 
                         <td>9:30a.m.</td>
                     </tr>
                     <tr>
                         <td>U6andU1</td>
-                        <td>Marjorie P Hart</td>
+                        <td class="location">
+                            <div class="visual-maps">
+                                <article id="map4" class="material-symbols-outlined container-maps">location_on
+                                    <h5 class=" title-section">Marjorie P Hart</h5>
+                                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.7505179692707!2d-87.86481089469335!3d42.32651967753195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1675477728095!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </article>        
+                            </div>
+                        </td>
                         <td>1:00p.m.</td>
                     </tr>
                     <tr>
                         <td rowspan="2">9/15</td>
                         <td>U2andU4</td>
-                        <td>North</td> 
+                        <td class="location">
+                            <div class="visual-maps">
+                                <article id="map5" class="material-symbols-outlined container-maps">location_on
+                                    <h5 class=" title-section">North</h5>
+                                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.7505179692707!2d-87.86481089469335!3d42.32651967753195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1675477728095!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </article>        
+                            </div>
+                        </td> 
                         <td>9:30a.m.</td>
                     </tr>
                     <tr>
                         <td>U3andU5</td>
-                        <td>AJkatzenmaier</td>
+                        <td class="location">
+                            <div class="visual-maps">
+                                <article id="map6" class="material-symbols-outlined container-maps">location_on
+                                    <h5 class=" title-section">AJ katzenmaier</h5>
+                                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.7505179692707!2d-87.86481089469335!3d42.32651967753195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1675477728095!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </article>        
+                            </div>
+                        </td>
                         <td>1:00p.m.</td>
                     </tr><tr>
                         <td rowspan="2">9/22</td>
                         <td>U1andU3</td>
-                        <td>South</td> 
+                        <td class="location">
+                            <div class="visual-maps">
+                                <article id="map7" class="material-symbols-outlined container-maps">location_on
+                                    <h5 class=" title-section">South</h5>
+                                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.7505179692707!2d-87.86481089469335!3d42.32651967753195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1675477728095!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </article>        
+                            </div>
+                        </td> 
                         <td>9:30a.m.</td>
                     </tr>
                     <tr>
                         <td>U2andU6</td>
-                        <td>Howard A Yeager</td>
+                        <td class="location">
+                            <div class="visual-maps">
+                                <article id="map8" class="material-symbols-outlined container-maps">location_on
+                                    <h5 class=" title-section">Howard A Yeaguer</h5>
+                                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.7505179692707!2d-87.86481089469335!3d42.32651967753195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1675477728095!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </article>        
+                            </div>
+                        </td>
                         <td>1:00p.m.</td>
                     </tr>
                     <tr>
                         <td>9/29</td>
                         <td>U4andU5</td>
-                        <td>Greenbay</td> 
+                        <td class="location">
+                            <div class="visual-maps">
+                                <article id="map9" class="material-symbols-outlined container-maps">location_on
+                                    <h5 class=" title-section">Greenbay</h5>
+                                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.7505179692707!2d-87.86481089469335!3d42.32651967753195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1675477728095!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </article>        
+                            </div>
+                        </td> 
                         <td>9:30a.m.</td>
                     </tr>
                 </tbody>                
-            </table>
-           <div class="maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.7505179692707!2d-87.86481089469335!3d42.32651967753195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1675477728095!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.2700626313917!2d-87.8560697849068!3d42.3154382791898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses!2sar!4v1675477833778!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2898393489722!2d-87.64816138492115!3d41.92962287921815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie%20P%20Hart%20Elementary!5e0!3m2!1ses!2sar!4v1675477934605!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-           </div>                 
+            </table>               
         </div>
-
         <section class="information">
                 <h3><b>Facility Type:</b>Outdoor</h3>
                 <p><b>Additional Information:</b> if deemed necessary by MDHL games may be shortened or cancelled due to extreme weather conditions.</p>
@@ -108,7 +167,7 @@
                 <p class="contact" ><b>Mail:</b><a href="mailto:michael.randall@chihockey.or">michael.randall@chihockey.org </a></p>   
         </section>
        
-        <div>
+        <div class="div-button">
             <a href="#title-header"><img class="img-buttom" src="./assets/img/img_buttom.png" alt=""></a>
         </div>
     </main>
